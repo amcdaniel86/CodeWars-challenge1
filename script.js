@@ -14,7 +14,7 @@ function anagramCounter(arrayOfWords){
 
 
     for(let i= theIndex+1; i < sortedWords.length; i++){ 
-      console.log('the index is' + theIndex + 'and i is' + i + word + 'is being compared to' + sortedWords[i])
+      console.log('the index is ' + theIndex + ' and i is ' + i + word + ' is being compared to ' + sortedWords[i])
       // explanation ^^^
 
       if(word === sortedWords[i]){
